@@ -12,3 +12,7 @@ scrape_ddg () {
 
     ddgr --json "$search" | jq '[.[]|{scraper: "ddg", url: .url, title: .title, ID: 3, channel: "", duration: "", views: "", description: .description}]' >> "$output_json_file"
 }
+
+func21 () {
+	
+}
