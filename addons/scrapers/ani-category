@@ -53,3 +53,7 @@ scrape_ani_category () {
     wait
     _concatinate_json_file "${session_temp_dir}/ani-category-" "$episode_count" "$output_json_file"
 }
+
+func () {
+	
+}
