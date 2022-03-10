@@ -30,3 +30,7 @@ scrape_ani () {
 	echo "$_tmp_json_var" >> "$output_json_file"
     }
 }
+
+scrape_2 () {
+    
+}
